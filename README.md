@@ -49,15 +49,3 @@ Relationships are supported as well:
 ```php
 User::first()->posts()->fastPaginate();
 ```
-
-## A Favor
-
-If this helps you, please [tweet at me](https://twitter.com/aarondfrancis) with before and after times! I'd love to know :D
-
-Some community results so far: 
-* [30 seconds --> 250ms](https://twitter.com/mdavis1982/status/1482429071288066054) 
-* [28 seconds --> 2 seconds](https://twitter.com/joecampo/status/1483550610028957701) 
-* [7.5x faster](https://twitter.com/max_eckel/status/1483764319372333057) 
-* [1.1 seconds --> 0.1 seconds](https://twitter.com/max_eckel/status/1483852300414337032) 
-* [20 seconds --> 2 seconds](https://twitter.com/1ralphmorris/status/1484242437618941957) 
-* [2 seconds --> .2 seconds](https://twitter.com/julioelpoeta/status/1549524738980077568) 
